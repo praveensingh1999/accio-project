@@ -35,7 +35,7 @@ const Homepage = () => {
       setShowResult(true);
     } catch (err) {
       setLoading(false);
-      setError("Something went wrong. Please try again.");
+      setError(`Something went wrong. Please try again.${err}`);
     }
   };
 
